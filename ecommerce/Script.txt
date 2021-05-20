@@ -1,0 +1,35 @@
+INSTALAR DJANGO-OSCAR
+===================================================
+Guardar repositorios 
+https://www.eniun.com/repositorio-git-visual-studio-code-github/#13_Usar_Github_y_Visual_Studio_Code_para_publicar_contenido
+https://lemoncode.net/lemoncode-blog/2017/12/12/git-y-visual-studio-code
+===================================================
+
+
+
+===================================================
+CREAR UN DIRECTORIO VIRTUAL
+===================================================
+Entrar a la carpeta donde estará el proyecto y crear
+# Windows
+python -m venv env
+
+===================================================
+CREAR EL PROYECTO DJANGO-OSCAR
+===================================================
+pip install django-oscar
+django-admin startproject ecommerce
+
+===================================================
+CREAR BASE DE DATOS
+===================================================
+$ python manage.py migrate
+$ python manage.py runserver
+abrir localhost
+===================================================
+===================================================
+===================================================
+===================================================
+===================================================
+===================================================
+===================================================
